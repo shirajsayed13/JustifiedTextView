@@ -137,7 +137,7 @@ public class JustifiedTextView extends TextView {
         currentSentence.add(word);
         if (containsNewLine) {
             sentences.add(getSentenceFromListCheckingNewLines(currentSentence));
-            currentSentence.clear();
+            //currentSentence.clear();
         }
     }
 
